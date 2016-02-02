@@ -1,0 +1,33 @@
+#table-container {
+	width: 960px;
+	margin: 0 auto;
+	
+
+	& table {
+		border-collapse: collapse;
+		
+	    background: #F3F3F3;
+		box-shadow: inset 0px 0px 15px #FFE5E5;
+	    -moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+	    -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+		width: 100%;
+	}
+	
+	& table th {
+		font-weight: bold;
+		font-size: 18px;
+
+
+	}
+
+	& table th, table td {
+		color: #384340;
+		padding: 5px;
+		border: 1px solid #FFD2D2;
+		-webkit-border-radius: 10px;
+	    -moz-border-radius: 10px;
+	    border-radius: 10px;
+		text-align: center;
+	}
+
+}

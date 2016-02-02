@@ -1,0 +1,64 @@
+#form-container {
+	position: relative;
+	margin: 10px auto;
+	padding: 15px;
+	width: 550px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+	& form {
+		border-radius: 10px;
+	    -webkit-border-radius: 10px;
+	    -moz-border-radius: 10px;
+	    margin: 0px 0px 10px 0px;
+	    border: 1px solid #FFD2D2;
+	    padding: 20px;
+	    background: #F3F3F3;
+	    box-shadow: inset 0px 0px 15px #FFE5E5;
+	    -moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+	    -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+	}
+
+
+	& form div input {
+		border-radius: 3px;
+	    -webkit-border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    border: 1px solid #FFC2DC;
+	    outline: none;
+	    color: #212121;
+	    padding: 5px 8px 5px 8px;
+	    box-shadow: inset 1px 1px 4px #FFD5E7;
+	    -moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+	    -webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+	    background: #FFEFF6;
+	    width: 200px;
+	}
+
+	& form div button {
+		background: #384340;
+	    border: 1px solid #384340;
+	    padding: 5px 15px 5px 15px;
+	    color: #DFFBFB;
+	    box-shadow: inset -1px -1px 3px #384340;
+	    -moz-box-shadow: inset -1px -1px 3px #384340;
+	    -webkit-box-shadow: inset -1px -1px 3px #384340;
+	    border-radius: 3px;
+	    border-radius: 3px;
+	    -webkit-border-radius: 3px;
+	    -moz-border-radius: 3px;    
+	    font-weight: bold;
+
+	    margin-left: 105px;
+	    margin-top: 5px;
+	}
+
+	& form div label {
+		color: #384340;
+		width: 100px;
+		display: inline-block;
+		margin-bottom: 25px;
+		font-weight: bold;
+		text-shadow: 1px 1px 1px #fff;
+
+	}
+}
